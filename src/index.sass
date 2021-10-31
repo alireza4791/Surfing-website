@@ -1,0 +1,36 @@
+$breakpoint-tablet: 800px
+$phoneBreakpoint: 320px
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+.container
+    background-image: url('./images/CB.jpg')
+    background-size: cover
+@font-face
+    font-family: Fligen
+    src: url(./fonts/Fligen-Regular.otf)
+
+
+@font-face
+    font-family: Calfine
+    src: url(./fonts/Calfine.ttf)
+
+@font-face
+    font-family: Lato-Regular
+    src: url(./fonts/Lato-Regular.ttf)
+
+@keyframes header_animation
+    0%
+        right: -800px
+    100%
+        right: 0px
+
+
+@media (max-width: $breakpoint-tablet)
+    .container
+        position: relative
+
+@media (max-width: $phoneBreakpoint)
+    .container
+        right: 3%

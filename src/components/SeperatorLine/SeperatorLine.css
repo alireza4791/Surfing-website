@@ -1,0 +1,21 @@
+.seperator0 {
+  position: relative;
+  margin-bottom: 15%;
+  margin-top: 10%;
+}
+
+.seperator0 .blue-line0 {
+  height: 6rem;
+  border-left: 2px solid #0ed3da;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: -80px;
+}
+
+@media (max-width: 800px) {
+  .seperator0 {
+    margin-bottom: 11rem;
+  }
+}
+/*# sourceMappingURL=SeperatorLine.css.map */

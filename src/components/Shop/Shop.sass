@@ -1,0 +1,123 @@
+$breakpoint-tablet: 800px
+$phoneBreakpoint: 320px
+
+.shop-container
+    text-align: center
+    // background-image: url('../images/ocean.png')
+    background-size: cover
+    padding-top: 3%
+    margin: 0px 3%
+    text-transform: capitalize
+    .shop-header
+        h5
+            color: #24e4eb
+            margin: 1px
+        h2
+            font-family: Garamond, serif
+            font-weight: bold
+    .b-carousel
+        height: 30rem
+        div
+            .boards
+                display: flex !important
+                justify-content: space-around
+                position: relative
+                div
+                    display: inline
+                    position: relative
+                    width: 105%
+                    height: 35rem
+                    img
+                        height: 70%
+                        width: 18rem
+                    .surfB-name
+                        position: absolute
+                        right: -35%
+                        top: 7%
+                        height: 40%
+                        h5
+                            color: grey
+                        h3
+                            font-family: Garamond, serif
+                            font-weight: bold
+                    .boardPrice
+                        position: absolute
+                        right: -35%
+                        top: 24%
+                        h4
+                            color: #bd16af
+                        h5
+                            text-transform: uppercase
+        .prev, .next
+            position: relative
+            cursor: pointer
+            display: inline
+            z-index: 3
+        .prev
+            right: 52%
+            bottom: 24rem
+        .next
+            left: 52%
+            bottom: 24rem
+    .show-boards
+        padding-bottom: 2%
+        a
+            text-decoration: none
+            color: black
+            border-bottom: 1px solid #24e4eb
+            padding-bottom: 5px
+            font-family: Lato-Regular
+            cursor: pointer
+            font-family: arial,sans-serif
+
+@media (max-width: $breakpoint-tablet)
+    .shop-container
+        .b-carousel
+            margin-top: 10%
+            div
+                width: 48rem
+                .boards
+                    div
+                        img
+                            width: 15rem
+                            height: 60%
+                        .surfB-name
+                            top: -15%
+                            right: -5%
+                        .boardPrice
+                            right: -5%
+                            top: 65%
+            .prev
+                right: 51%
+            .next
+                left: 52%
+
+
+@media (max-width: $phoneBreakpoint)
+    .shop-container
+        margin-bottom: 70px
+        .b-carousel
+            height: 250px
+            margin-bottom: 15rem
+            div
+                #carouselExampleIndicators
+                    position: relative
+                    .carousel-control-next
+                        position: absolute
+                        left: 14rem
+                    .carousel-control-prev
+                        position: absolute
+                        left: -2rem
+                    .carousel-inner
+                        width: 20rem
+                        height: 30rem
+                        div
+                            width: 19rem
+                            height: 28rem
+                            img
+                                width: 19rem
+                                height: 28rem
+            .prev, .next
+                display: none
+
+            

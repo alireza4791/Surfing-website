@@ -1,0 +1,29 @@
+.quote {
+  margin-top: 12%;
+  margin-bottom: 9%;
+  text-transform: capitalize;
+}
+
+.quote .quote_text {
+  text-align: center;
+  font-family: Lato-Regular;
+  color: #444040;
+  font-size: 1.4rem;
+}
+
+.quote .quote_text p {
+  margin: 1%;
+  font-family: arial,sans-serif;
+}
+
+.quote .quote_text p:first-child {
+  font-family: Garamond, serif;
+  font-weight: 500;
+}
+
+@media (max-width: 800px) {
+  .quote {
+    margin-bottom: 8rem;
+  }
+}
+/*# sourceMappingURL=Quote.css.map */

@@ -1,0 +1,73 @@
+$secondarycolor1: #cabdbd
+$breakpoint-tablet: 800px
+$phoneBreakpoint: 320px
+
+.header_container
+    position: relative
+    padding-top: 10%
+    font-family: arial,sans-serif
+    font-weight: 600
+    text-transform: uppercase
+    letter-spacing: 0.1rem
+    margin-bottom: 2rem
+    .Header
+        .NAV
+            .Logo
+                width: 20%
+                display: flex
+                justify-content: flex-start
+                cursor: pointer
+                padding-left: 3.5%
+                height: 3rem
+            div
+                div
+                    ul
+                        width: 45%
+                        overflow: hidden
+                        margin-bottom: 5%
+                        position: relative
+                        padding-top: 1.5%
+                        animation-name: header_animation
+                        animation-duration: 1.2s
+                        overflow: visible
+                        li
+                            float: left
+                            width: 10%
+                            height: 2rem
+                            text-decoration: none
+                            margin-right: 18%
+                            cursor: pointer           
+    .FSM
+        p
+        text-align: right
+        writing-mode: vertical-rl
+        transform: rotate(180deg)
+        color: $secondarycolor1
+        height: 120%
+        position: absolute
+        right: 0
+        top: 68%
+        visibility: visible
+        overflow: visible
+
+
+//for tablet devices
+@media (max-width: $breakpoint-tablet) 
+    .header_container
+        .FSM
+            visibility: hidden
+        .Header
+            .NAV
+                div
+                    div
+                        ul
+                            width: 250px
+                            padding-top: 3%
+                            padding-left: 5%
+                            li
+                                margin-right: 28%
+                                      
+                .Logo
+                    height: 5.8rem
+                    position: relative
+                    bottom: 2.2rem

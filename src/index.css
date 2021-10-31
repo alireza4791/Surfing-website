@@ -1,13 +1,57 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  background-image: url("./images/CB.jpg");
+  background-size: cover;
 }
+
+@font-face {
+  font-family: Fligen;
+  src: url(./fonts/Fligen-Regular.otf);
+}
+
+@font-face {
+  font-family: Calfine;
+  src: url(./fonts/Calfine.ttf);
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url(./fonts/Lato-Regular.ttf);
+}
+
+@-webkit-keyframes header_animation {
+  0% {
+    right: -800px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes header_animation {
+  0% {
+    right: -800px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    position: relative;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    right: 3%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

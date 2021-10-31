@@ -1,0 +1,80 @@
+.header_container {
+  position: relative;
+  padding-top: 10%;
+  font-family: arial,sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+.header_container .Header .NAV .Logo {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  cursor: pointer;
+  padding-left: 3.5%;
+  height: 3rem;
+}
+
+.header_container .Header .NAV div div ul {
+  width: 45%;
+  overflow: hidden;
+  margin-bottom: 5%;
+  position: relative;
+  padding-top: 1.5%;
+  -webkit-animation-name: header_animation;
+          animation-name: header_animation;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  overflow: visible;
+}
+
+.header_container .Header .NAV div div ul li {
+  float: left;
+  width: 10%;
+  height: 2rem;
+  text-decoration: none;
+  margin-right: 18%;
+  cursor: pointer;
+}
+
+.header_container .FSM {
+  text-align: right;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #cabdbd;
+  height: 120%;
+  position: absolute;
+  right: 0;
+  top: 68%;
+  visibility: visible;
+  overflow: visible;
+}
+
+@media (max-width: 800px) {
+  .header_container .FSM {
+    visibility: hidden;
+  }
+  .header_container .Header .NAV div div ul {
+    width: 250px;
+    padding-top: 3%;
+    padding-left: 5%;
+  }
+  .header_container .Header .NAV div div ul li {
+    margin-right: 28%;
+  }
+  .header_container .Header .NAV .Logo {
+    height: 5.8rem;
+    position: relative;
+    bottom: 2.2rem;
+  }
+}
+/*# sourceMappingURL=header.css.map */

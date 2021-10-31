@@ -1,0 +1,153 @@
+.promotion {
+  margin-top: 12%;
+  height: 43rem;
+  position: relative;
+  padding: 5%;
+  margin-bottom: 2%;
+  text-transform: capitalize;
+}
+
+.promotion div {
+  display: inline;
+}
+
+.video-wrapper {
+  width: 60%;
+  height: 72%;
+  z-index: 2;
+  position: absolute;
+  right: 2%;
+  bottom: 38%;
+}
+
+.video {
+  width: 90%;
+  height: 145%;
+  border-radius: 2%;
+}
+
+.promotionalImg {
+  width: 51%;
+  height: 63%;
+  position: absolute;
+  top: 0;
+  left: 6%;
+}
+
+.promotionalImg img {
+  width: 90%;
+  height: 80%;
+}
+
+.promotion-text {
+  width: 40%;
+  height: 13%;
+  position: absolute;
+  bottom: 30%;
+  left: 2%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.promotion-text p {
+  color: grey;
+  padding: 1%;
+  font-family: arial,sans-serif;
+}
+
+.promotion-text a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #24e4eb;
+  padding-bottom: 5px;
+  font-family: Lato-Regular;
+}
+
+.play-button-wrapper {
+  position: absolute;
+  top: 63%;
+  left: 41%;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+
+.play-button-wrapper #circle-play-b {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.play-button-wrapper #circle-play-b svg {
+  width: 100px;
+  height: 100px;
+  fill: #fff;
+  stroke: #fff;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+@media (max-width: 800px) {
+  .video-wrapper {
+    bottom: 50%;
+  }
+  .video-wrapper .video {
+    width: 100%;
+  }
+  .play-button-wrapper {
+    left: 45%;
+  }
+  .promotion-text {
+    width: 100%;
+    bottom: 27%;
+  }
+}
+
+@media (max-width: 320px) {
+  .promotion {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 100px;
+  }
+  .promotion div {
+    display: block;
+  }
+  .video-wrapper, .promotionalImg {
+    position: static;
+  }
+  .video-wrapper {
+    width: 100%;
+    height: 200px;
+  }
+  .promotionalImg {
+    width: 111%;
+  }
+  .video {
+    height: 100%;
+  }
+  .play-button-wrapper {
+    top: 13%;
+    left: 42%;
+  }
+  .promotion-text {
+    bottom: 0;
+  }
+}
+/*# sourceMappingURL=Promotion.css.map */

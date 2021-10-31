@@ -1,0 +1,167 @@
+.shop-container {
+  text-align: center;
+  background-size: cover;
+  padding-top: 3%;
+  margin: 0px 3%;
+  text-transform: capitalize;
+}
+
+.shop-container .shop-header h5 {
+  color: #24e4eb;
+  margin: 1px;
+}
+
+.shop-container .shop-header h2 {
+  font-family: Garamond, serif;
+  font-weight: bold;
+}
+
+.shop-container .b-carousel {
+  height: 30rem;
+}
+
+.shop-container .b-carousel div .boards {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+}
+
+.shop-container .b-carousel div .boards div {
+  display: inline;
+  position: relative;
+  width: 105%;
+  height: 35rem;
+}
+
+.shop-container .b-carousel div .boards div img {
+  height: 70%;
+  width: 18rem;
+}
+
+.shop-container .b-carousel div .boards div .surfB-name {
+  position: absolute;
+  right: -35%;
+  top: 7%;
+  height: 40%;
+}
+
+.shop-container .b-carousel div .boards div .surfB-name h5 {
+  color: grey;
+}
+
+.shop-container .b-carousel div .boards div .surfB-name h3 {
+  font-family: Garamond, serif;
+  font-weight: bold;
+}
+
+.shop-container .b-carousel div .boards div .boardPrice {
+  position: absolute;
+  right: -35%;
+  top: 24%;
+}
+
+.shop-container .b-carousel div .boards div .boardPrice h4 {
+  color: #bd16af;
+}
+
+.shop-container .b-carousel div .boards div .boardPrice h5 {
+  text-transform: uppercase;
+}
+
+.shop-container .b-carousel .prev, .shop-container .b-carousel .next {
+  position: relative;
+  cursor: pointer;
+  display: inline;
+  z-index: 3;
+}
+
+.shop-container .b-carousel .prev {
+  right: 52%;
+  bottom: 24rem;
+}
+
+.shop-container .b-carousel .next {
+  left: 52%;
+  bottom: 24rem;
+}
+
+.shop-container .show-boards {
+  padding-bottom: 2%;
+}
+
+.shop-container .show-boards a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #24e4eb;
+  padding-bottom: 5px;
+  font-family: Lato-Regular;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+}
+
+@media (max-width: 800px) {
+  .shop-container .b-carousel {
+    margin-top: 10%;
+  }
+  .shop-container .b-carousel div {
+    width: 48rem;
+  }
+  .shop-container .b-carousel div .boards div img {
+    width: 15rem;
+    height: 60%;
+  }
+  .shop-container .b-carousel div .boards div .surfB-name {
+    top: -15%;
+    right: -5%;
+  }
+  .shop-container .b-carousel div .boards div .boardPrice {
+    right: -5%;
+    top: 65%;
+  }
+  .shop-container .b-carousel .prev {
+    right: 51%;
+  }
+  .shop-container .b-carousel .next {
+    left: 52%;
+  }
+}
+
+@media (max-width: 320px) {
+  .shop-container {
+    margin-bottom: 70px;
+  }
+  .shop-container .b-carousel {
+    height: 250px;
+    margin-bottom: 15rem;
+  }
+  .shop-container .b-carousel div #carouselExampleIndicators {
+    position: relative;
+  }
+  .shop-container .b-carousel div #carouselExampleIndicators .carousel-control-next {
+    position: absolute;
+    left: 14rem;
+  }
+  .shop-container .b-carousel div #carouselExampleIndicators .carousel-control-prev {
+    position: absolute;
+    left: -2rem;
+  }
+  .shop-container .b-carousel div #carouselExampleIndicators .carousel-inner {
+    width: 20rem;
+    height: 30rem;
+  }
+  .shop-container .b-carousel div #carouselExampleIndicators .carousel-inner div {
+    width: 19rem;
+    height: 28rem;
+  }
+  .shop-container .b-carousel div #carouselExampleIndicators .carousel-inner div img {
+    width: 19rem;
+    height: 28rem;
+  }
+  .shop-container .b-carousel .prev, .shop-container .b-carousel .next {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Shop.css.map */

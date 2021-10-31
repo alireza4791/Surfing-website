@@ -1,0 +1,81 @@
+$breakpoint-tablet: 800px
+$phoneBreakpoint: 320px
+.training-container1, .training-container2
+    display: flex
+    justify-content: center
+    margin-top: 10%
+    .training_text
+        width: 38%
+        position: relative
+        div
+            position: absolute
+            top: 6%
+            left: 15%
+            h2
+                font-family: Garamond, serif
+                font-weight: bold
+                font-size: 2.5rem
+                span
+                    text-decoration: none
+                    color: black
+                    border-bottom: 2px solid #24e4eb
+                    padding-bottom: 5px
+            .number
+                color: #7773730c
+                font-size: 15rem
+                position: relative
+                top: -7.5rem
+                z-index: 0
+
+        p
+            position: absolute
+            top: 18%
+            left: 15%
+            color: grey
+        a
+            position: absolute
+            top: 38%
+            left: 15%
+            text-decoration: none
+            color: black
+            border-bottom: 1px solid #24e4eb
+            padding-bottom: 5px
+            font-family: arial,sans-serif
+
+    .surfImg
+        width: 55%
+        img
+            width: 90%
+            height: 70%
+
+.training-container1
+    height: 103vh
+
+@media (max-width: $breakpoint-tablet)
+    .training-container1, .training-container2
+        .training_text
+            a
+                top: 48%
+            p
+                padding: 1%
+
+@media (max-width: $phoneBreakpoint)
+    .training-container1, .training-container2
+        display: block
+        margin-bottom: 8rem
+        .surfImg
+            width: 100%
+            padding-left: 25px
+        .training_text
+            top: 65%
+            width: 200px
+            p
+                top: 80px
+                width: 120%
+            a
+                position: relative
+                top: 250px
+                left: 110px
+    .training-container2
+        margin-bottom: 28rem
+

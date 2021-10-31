@@ -1,0 +1,63 @@
+$breakpoint-tablet: 800px
+$phoneBreakpoint: 320px
+
+.join_container
+    display: flex
+    justify-content: center
+    margin-bottom: 9%
+    .join
+        width: 36%
+        text-align: center
+        h2
+            font-family: Garamond, serif
+            font-weight: bold
+            color: #333030
+            font-size: 32px
+        p
+            margin: 18px 0px
+            color: grey
+        div
+            width: 460px
+            input
+                width: 85%
+                height: 15%
+                padding: 12px
+                padding-left: 16px
+                font-family: Lato-Regular
+                font-weight: bold
+            button
+                background-color: #0ed3da
+                height: 3.3rem
+                width: 3rem
+                border: none
+                color: white
+                position: relative
+                right: 6px
+                bottom: 1px
+                border-radius: 3px
+                transition: all .5s ease-in-out
+                &:hover
+                    background-color: #7ff312
+
+@media (max-width: $breakpoint-tablet)
+    .join_container
+        .join
+            div
+                padding-right: 150px
+                button
+                    height: 3.3rem
+
+@media (max-width: $phoneBreakpoint)
+    .join_container
+        padding-top: 40px
+        margin-bottom: 8rem
+        .join
+            width: 60%
+            div
+                display: flex
+                form
+                    input
+                        width: 55%
+                    button
+                        height: 62%
+                        bottom: 0

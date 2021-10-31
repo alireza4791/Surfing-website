@@ -1,0 +1,89 @@
+.join_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 9%;
+}
+
+.join_container .join {
+  width: 36%;
+  text-align: center;
+}
+
+.join_container .join h2 {
+  font-family: Garamond, serif;
+  font-weight: bold;
+  color: #333030;
+  font-size: 32px;
+}
+
+.join_container .join p {
+  margin: 18px 0px;
+  color: grey;
+}
+
+.join_container .join div {
+  width: 460px;
+}
+
+.join_container .join div input {
+  width: 85%;
+  height: 15%;
+  padding: 12px;
+  padding-left: 16px;
+  font-family: Lato-Regular;
+  font-weight: bold;
+}
+
+.join_container .join div button {
+  background-color: #0ed3da;
+  height: 3.3rem;
+  width: 3rem;
+  border: none;
+  color: white;
+  position: relative;
+  right: 6px;
+  bottom: 1px;
+  border-radius: 3px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.join_container .join div button:hover {
+  background-color: #7ff312;
+}
+
+@media (max-width: 800px) {
+  .join_container .join div {
+    padding-right: 150px;
+  }
+  .join_container .join div button {
+    height: 3.3rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .join_container {
+    padding-top: 40px;
+    margin-bottom: 8rem;
+  }
+  .join_container .join {
+    width: 60%;
+  }
+  .join_container .join div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .join_container .join div form input {
+    width: 55%;
+  }
+  .join_container .join div form button {
+    height: 62%;
+    bottom: 0;
+  }
+}
+/*# sourceMappingURL=Join.css.map */
