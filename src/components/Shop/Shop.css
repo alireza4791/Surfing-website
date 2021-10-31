@@ -92,7 +92,7 @@
   padding-bottom: 2%;
 }
 
-.shop-container .show-boards a {
+.shop-container .show-boards span {
   text-decoration: none;
   color: black;
   border-bottom: 1px solid #24e4eb;
@@ -100,6 +100,7 @@
   font-family: Lato-Regular;
   cursor: pointer;
   font-family: arial,sans-serif;
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {

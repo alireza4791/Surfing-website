@@ -4,8 +4,8 @@ import './Footer.css'
 
 export default function Footer() {
     return (
-        <div class="footer">
-            <div class="logo">
+        <div className="footer">
+            <div className="logo">
                 <img alt="logo" src={ require('../../images/logo.png').default }/>
             </div>
                 <ul id="Footer-nav">

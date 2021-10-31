@@ -102,7 +102,7 @@ export default function Shop() {
     const renderBoards = () => {
         return boards.map((board, index) => {
             if(index === Count) {
-                return <div>{board}</div>
+                return <div key={board}>{board}</div>
             }
             return null
         })
@@ -141,7 +141,7 @@ export default function Shop() {
                 </div>
             </div>
             <div className="show-boards">
-                <a href="#">Show all</a>
+                <span>Show all</span>
             </div>
         </div>
     )

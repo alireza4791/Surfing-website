@@ -60,12 +60,13 @@
   font-family: arial,sans-serif;
 }
 
-.promotion-text a {
+.promotion-text span {
   text-decoration: none;
   color: black;
   border-bottom: 1px solid #24e4eb;
   padding-bottom: 5px;
   font-family: Lato-Regular;
+  cursor: pointer;
 }
 
 .play-button-wrapper {

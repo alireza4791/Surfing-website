@@ -58,7 +58,7 @@ export default function Carousel() {
     const renderCarousel = () => {
         return slides.map((slide, index) =>{
             if(++index === count) {
-                return <div>{slide}</div>
+                return <div key={slide}>{slide}</div>
             }
             return null
         })

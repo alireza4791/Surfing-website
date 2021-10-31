@@ -24,7 +24,7 @@ export default function Promotion() {
                     massa sapien faucibus et molestie ac. Fermentum <br />iaculis eu non diam phasellus vestibulum.
                 </p>
                 <br />
-                <a href="#">Read More</a>
+                <span>Read More</span>
             </div>
         </div>
     )
