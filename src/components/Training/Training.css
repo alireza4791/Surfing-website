@@ -47,7 +47,7 @@
   color: grey;
 }
 
-.training-container1 .training_text span, .training-container2 .training_text span {
+.training-container1 .training_text .ReadMore, .training-container2 .training_text .ReadMore {
   position: absolute;
   top: 38%;
   left: 15%;
@@ -73,7 +73,7 @@
 }
 
 @media (max-width: 800px) {
-  .training-container1 .training_text a, .training-container2 .training_text a {
+  .training-container1 .training_text .ReadMore, .training-container2 .training_text .ReadMore {
     top: 48%;
   }
   .training-container1 .training_text p, .training-container2 .training_text p {
@@ -98,7 +98,7 @@
     top: 80px;
     width: 120%;
   }
-  .training-container1 .training_text a, .training-container2 .training_text a {
+  .training-container1 .training_text .ReadMore, .training-container2 .training_text .ReadMore {
     position: relative;
     top: 250px;
     left: 110px;

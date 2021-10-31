@@ -92,7 +92,7 @@
   padding-bottom: 2%;
 }
 
-.shop-container .show-boards span {
+.shop-container .show-boards .ShowAll {
   text-decoration: none;
   color: black;
   border-bottom: 1px solid #24e4eb;

@@ -53,8 +53,8 @@
 }
 
 @media (max-width: 800px) {
-  .contact_container .training_text a {
-    top: 115%;
+  .contact_container .training_text span {
+    top: 100%;
   }
   .contact_container .training_text h6 {
     top: 15%;
@@ -81,7 +81,7 @@
   .contact_container .training_text h6 {
     left: 40%;
   }
-  .contact_container .training_text a {
+  .contact_container .training_text span {
     top: 11rem;
     left: 32%;
   }

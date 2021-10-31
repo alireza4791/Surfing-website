@@ -14,7 +14,7 @@ export default function TrainingSection2() {
                     <span className="number">02</span>
                 </div>
                 <p>Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Euismod quis viverra nibh cras pulvinar mattis nunc. Lobortis scelerisque fermentum dui faucibus in. Vulputate enim nulla aliquet porttitor.</p>
-                <span>Read More</span>
+                <span className="ReadMore">Read More</span>
             </div>
         </div>
     )

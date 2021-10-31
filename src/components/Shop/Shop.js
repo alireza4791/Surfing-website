@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import './Shop.css'
 import Carousel from './Carousel'
-// style={{backgroundImage: require('../../images/ocean.png')}}
+import background from '../../images/ocean.png'
 
 export default function Shop() {
 
@@ -121,7 +121,7 @@ export default function Shop() {
     }
 
     return (
-        <div className="shop-container">
+        <div style={{ backgroundImage: `url(${background})` }} className="shop-container">
             <div className="shop-header">
                 <h5>Shop</h5>
                 <h2>Surfboards</h2>
@@ -141,7 +141,7 @@ export default function Shop() {
                 </div>
             </div>
             <div className="show-boards">
-                <span>Show all</span>
+                <span className="ShowAll">Show all</span>
             </div>
         </div>
     )

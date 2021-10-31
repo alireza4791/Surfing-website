@@ -60,7 +60,7 @@
   font-family: arial,sans-serif;
 }
 
-.promotion-text span {
+.promotion-text .Read {
   text-decoration: none;
   color: black;
   border-bottom: 1px solid #24e4eb;
